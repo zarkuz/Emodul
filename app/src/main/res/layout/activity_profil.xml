@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".konten.ProfilActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bgkudua"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@color/white"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/mainku"
+        android:layout_alignParentBottom="true"/>
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="5dp"
+        android:layout_marginBottom="80dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/photoprofil" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Lengkap" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Bella Allivia Sativa Turmono, S.Pd." />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Panggilan" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Bella" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tempat Tanggal Lahir" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Cilacap, 16 November 1997" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="bellaallivia21@gmail.com" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginTop="7dp"
+                android:text="Riwayat Pendidikan dan Tahun Belajar:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:text="1.	SD Negeri 01 Mulyasari (2003-2009)
+\n2.	SMP Negeri 2 Majenang (2009-2012)
+\n3.	SMA Negeri 1 Majenang (2012-2015)
+\n4.	Universitas Muhammadiyah Purwokerto, Pendidikan Bahasa dan Sastra Indonesia (2015- 2019)
+\n5.	Saat ini sedang melanjutkan sekolah di Pascasarjana Universitas Muhammadiyah Purwokerto
+" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginTop="7dp"
+                android:text="Pengalaman Penelitian:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:text="
+1.	“Pengaruh Penggunaan Media Wall Chart Dalam Meningkatkan Kemampuan Menulis Cerita Pendek Siswa Smp N 2 Majenang Kelas VII A” Artikel, Vol.5, No. 1 (2018) : METAFORA (Jurnal Bahasa dan Sastra UMP).
+/n 2.	“Keefektifan Metode Jigsaw Terintegrasi Cooperative Review dalam Meningkatkan Hasil Belajar Apresiasi Teks Drama Siswa Kelas VIII SMP N 2 Purwokerto” Skripsi, Universitas Muhammadiyah Purwokerto (2019).
+/n 3.	“Sociolinguistic Studies: Phenomenon of Diglosia in Postgraduate Students of Indonesian Language and Literature Education Class of 2020 University of Muhammadiyah Purwokerto” Proceedings of The 1st Internasional Seminar on Teacher Training and Education, Purwokerto: 17- 18 July 2021. Hal. 1-5.
+" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/btn_image_v2"
+        android:id="@+id/btn_homeku"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_baseline_home_24_v2"
+        android:scaleType="centerInside"/>
+</RelativeLayout>

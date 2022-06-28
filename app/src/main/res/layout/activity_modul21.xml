@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".konten.modul.Modul21Activity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bgkudua"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@color/white"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/mainku"
+        android:layout_alignParentBottom="true"/>
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_baseline_home_24_v2"
+        android:background="@drawable/btn_image_v2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerInside"
+        android:id="@+id/btn_myhome"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="80dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/modul211"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="\u0020 \u0020 Setelah mempelajari fungsi surat di atas, ada beberapa bagaian yang menjadi unsur-unsur surat pribadi sebagai berikut:"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(1)"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Alamat dan Tempat Tanggal Pembuatan Surat"
+                    android:textStyle="bold"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bagian ini menjelaskan posisi dan waktu ditulisnya surat. Perhatikan contoh berikut ini:
+                        \n
+                        \nPurwokerto, 21 Maret 2022
+                        \n
+                        \nDian Lestari
+                        \nJl. Jendral Sudirman
+                        \nNo.14 I/I Kupang,
+                        \nTanjung Karang Bandar
+                        \nLampung"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(2)"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salam Pembuka"
+                    android:textStyle="bold"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Salam pembuka merupakan sapaan seseorang sebelum menulis surat. Anda bisa menggunakan kalimat seperti berikut ini:
+                        \n
+                        \n- Assalamu'alaikum
+                        \n- Salam Manis
+                        \n- Salam Sejahtera, dsb"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(3)"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paragraf Pembuka"
+                    android:textStyle="bold"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:justificationMode="inter_word"
+                    android:text="Paragraf pembuka biasanya berupa pertanyaan mengenai kabar, kesehatan, keadaan atau sekedar basa-basi yang penulis tanyakan kepada pembaca.
+                        \n
+                        \nContoh" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:layout_weight="1"
+                    android:text="“Halo Dian, bagaimana kabar kamu ? Aku berharap semoga kamu baik-baik saja ya ! Alhamdulillah aku di sini juga sehat dan baik-baik saja."/>
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(4)"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paragraf Isi"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:justificationMode="inter_word"
+                    android:text="Paragraf ini berisi inti atau tujuan dibuatnya surat. meskipun yang anda tulis ialah surat pribad, bagian ini tetap harus anda tulis jelas dan mudah dimengerti. Hal ini bertujuan supaya pesan anda bisa tersampaikan dengan baik pula. Perhatikan contoh berikut ini:" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:justificationMode="inter_word"
+                    android:layout_weight="1"
+                    android:text="“Tari tahun depan aku mau ke rumah nenekku yang ada di Bandar Lampung. Jadi aku bisa mampir sekalian ke rumah kamu. Boleh kan aku main ke rumah kamu? Pasti boleh lah, soalnya aku kangen berat dengan kamu. Awas, kalau tidak boleh! Jangan marah ya, aku cuma bercanda ko. Oh ya Tari, apakah foto kenangan kita masih kamu simpan? Sebab foto yang aku punya sudah hilang entah ke mana.”"/>
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(5)"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paragraf Penutup"
+                    android:textStyle="bold"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:layout_weight="1"
+                    android:text="Paragraf penutup digunakan untuk mengakhiri isi surat. Biasanya paragraf ini berisi permohonan maaf, mohon diri, harapan dan sebagainya."/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:justificationMode="inter_word"
+                    android:layout_weight="1"
+                    android:text="Ian, cukup sampai di sini dulu ya surat dari aku. Jangan lupa dibalas ya Ian. Aku tunggu lho balesan suratnya!"/>
+            </TableRow>
+
+
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

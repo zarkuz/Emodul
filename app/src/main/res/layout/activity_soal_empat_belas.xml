@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".konten.quiz.SoalEmpatBelasActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bgkudua"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/mainku"
+        android:layout_alignParentBottom="true"/>
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_baseline_home_24_v2"
+        android:background="@drawable/btn_image_v2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerInside"
+        android:id="@+id/btn_myhome"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Bacalah ilustrasi berikut!"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Aliya mengirimi orang tuanya surat. Ia mengatakan bahwa tidak dapat pulang pada liburan semester ini karena akan mengikuti peneliti bersama teman-temannya di Jogja.
+                \n
+                \nKalimat isi surat yang santun sesuai dengan ilustrasi di atas, yaitu"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aku minta beribu-ribu maaf kalau liburan semester ini tidak pulang karena akan pergi penelitian ke Jogja dengan teman-teman."
+                    android:id="@+id/btn_quiz_a"
+                    android:textColor="#808080"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saya minta maaf pada Ibu dan Bapak yang mana pada liburan semester ini saya tidak bisa pulang karena akan penelitian ke Jogja."
+                    android:id="@+id/btn_quiz_b"
+                    android:textColor="#808080"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maafkan Ananda tidak dapat pulang pada liburan semester kali ini karena Ananda akan mengadakan penelitian ke Jogja bersama teman-teman."
+                    android:id="@+id/btn_quiz_c"
+                    android:textColor="#808080"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pak, Bu, maafkan aku yah. Aku tidak bisa pulang pada liburan semester kali ini karena akan mengadakan penelitian ke Jogja bersama teman-teman."
+                    android:id="@+id/btn_quiz_d"
+                    android:textColor="#808080"/>
+            </RadioGroup>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Submit"
+                    android:background="@drawable/btn_norma_v1"
+                    android:textColor="@color/mainku"
+                    android:id="@+id/btn_quiz_submit"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+</RelativeLayout>

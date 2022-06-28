@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".konten.quiz.SoalSebelasActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bgkudua"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/mainku"
+        android:layout_alignParentBottom="true"/>
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_baseline_home_24_v2"
+        android:background="@drawable/btn_image_v2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerInside"
+        android:id="@+id/btn_myhome"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Perhatikan kutipan isi surat berikut berikut!"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Hai Kak, apa kabarmu? Semoga selalu baik-baik saja ya. Keadaanku di Purwokerto juga baik-baik saja. Begini Kak Amel, aku ingin menyampaikan perihal rencana kedatanganku ke Jogja yang harus tertunda lagi. Kegiatan di sekolah sedang sangat padat. Aku juga terpilih untuk mengikuti perlombaan menulis cerpen. Jadi meskipun liburan aku tetap masuk untuk beberapa hari mempersiapkan perlombaan itu. […]
+                \n
+                \nKalimat penutup surat tersebut yang tepat adalah"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sekian dulu surat ini, semoga Kak Amel bahagia, terima kasih."
+                    android:id="@+id/btn_quiz_a"
+                    android:textColor="#808080"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Demikian yang dapat saya sampaikan dan terima kasih atas perhatiannya."
+                    android:id="@+id/btn_quiz_b"
+                    android:textColor="#808080"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Harap maklum dan dapat memaafkan kesalahanku ya."
+                    android:id="@+id/btn_quiz_c"
+                    android:textColor="#808080"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sekian dulu suratku ini, semoga Kak Amel tidak kecewa ya. Maafkan adikmu."
+                    android:id="@+id/btn_quiz_d"
+                    android:textColor="#808080"/>
+            </RadioGroup>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Submit"
+                    android:background="@drawable/btn_norma_v1"
+                    android:textColor="@color/mainku"
+                    android:id="@+id/btn_quiz_submit"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+</RelativeLayout>

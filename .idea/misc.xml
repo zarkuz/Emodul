@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/drawable-v24/btn_image_v1.xml" value="0.125" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/drawable-v24/ic_baseline_arrow_back_ios_new_24.xml" value="0.122" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/drawable-v24/ic_baseline_book_24.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/drawable-v24/ic_baseline_directions_24.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/drawable-v24/ic_baseline_language_24.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/drawable-v24/ic_baseline_library_books_24.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/drawable-v24/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/drawable/btn_image_v2.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/drawable/btn_norma_v1.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/drawable/btn_norma_v2.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/drawable/ic_baseline_home_24_v2.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_daftar_pustaka.xml" value="0.18" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_glosarium.xml" value="0.22" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_modul.xml" value="0.25" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_modul1.xml" value="0.33" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_modul11.xml" value="0.15169660678642716" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_modul12.xml" value="0.13114754098360656" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_modul13.xml" value="0.1497536945812808" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_modul21.xml" value="0.22" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_modul22.xml" value="0.18881987577639753" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_modul23.xml" value="0.25" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_modul_kompetensi.xml" value="0.25" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_modul_latihan.xml" value="0.35348837209302325" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_modul_pengantar.xml" value="0.25" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_modul_rangkuman.xml" value="0.22" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_profil.xml" value="0.25" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_quiz.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_quiz_hasil.xml" value="0.25" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_soal_delapan.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_soal_dua.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_soal_dua_belas.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_soal_empat.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_soal_empat_belas.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_soal_enam.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_soal_lima.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_soal_lima_belas.xml" value="0.2426584234930448" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_soal_satu.xml" value="0.2401263823064771" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_soal_sebelas.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_soal_sembilan.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_soal_sepuluh.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_soal_tiga.xml" value="0.18" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_soal_tiga_belas.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_soal_tujuh.xml" value="0.1" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/layout/activity_tujuan.xml" value="0.25" />
+        <entry key="..\:/Users/M Lulu Latif Usman/AndroidStudioProjects/Emodul3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
