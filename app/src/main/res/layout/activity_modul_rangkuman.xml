@@ -40,14 +40,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:padding="5dp">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Rangkuman"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_marginBottom="5dp"
-                    android:textAlignment="center"/>
                 <TableLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">

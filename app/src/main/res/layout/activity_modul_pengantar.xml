@@ -43,14 +43,6 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Rangkuman"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_marginBottom="5dp"
-                    android:textAlignment="center"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:text="\u0020 \u0020 Surat merupakan salah satu media komunikasi tertulis. Surat terbagi menjadi surat pribadi dan surat dinas. Surat pribadi bersifat pribadi. Surat pribadi biasanya dapat ditujukan kepada orang tua, guru, saudara, sahabat, dan lain sebagainya. Surat pribadi ada juga yang bersifat setengah resmi seperti surat permohonan izin tidak masuk sekolah dan surat lamaran pekerjaan. Surat pribadi yang bersifat setengah resmi tersebut menggunakan bahasa yang resmi, kata-kata yang baku, dan kalimat efektif. Maka dari itu, pada bagian ini akan dipelajari."
                     android:layout_marginBottom="5dp"
                     android:justificationMode="inter_word"/>

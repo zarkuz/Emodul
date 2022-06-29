@@ -48,12 +48,6 @@
                     android:textStyle="bold"
                     android:layout_marginBottom="5dp"
                     android:textAlignment="center"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Kompetensi Inti 3 (Pengetahuan)"
-                    android:textSize="16sp"
-                    android:textStyle="bold"/>
                 <TableLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">

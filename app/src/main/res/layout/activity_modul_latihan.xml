@@ -29,9 +29,6 @@
                 android:layout_marginRight="20dp"
                 android:padding="10dp"
                 android:background="@color/white">
-
-
-
                 <TextView
                     android:layout_marginTop="30dp"
                     android:layout_width="match_parent"
@@ -112,9 +109,210 @@
                             android:scaleType="fitCenter"
                             android:layout_span="2"/>
                     </TableRow>
-
+                    <TableRow android:layout_marginTop="10dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:text="Menemukan Tujuan Komunikasi"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:justificationMode="inter_word"
+                            android:text="Tujuan komunikasi dalam surat dapat Ananda ketahui dengan mencermai bagian isi surat. Pada bagian tersebut, penulis secara tersurat menyampaikan apa yang ingin disampaikan kepada penerima surat. Sekarang, coba Ananda temukan apa tujuan surat di atas dengan mengisi tabel berikut ini."/>
+                    </TableRow>
+                    <TableRow>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:src="@drawable/latihan04"
+                            android:scaleType="fitCenter"
+                            android:layout_span="2"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:justificationMode="inter_word"
+                            android:text="Setelah itu, bandingkan temuan Ananda dengan penjelasan berikut! \nTujuan komunikasi surat pribadi kekeluargaan pada umumnya berisikan urusan pribadi seperti (1) menyampaikan perasaan rindu, senang, bangga, cinta, sedih, kagum, (2) meminta maaf, (3) mengabarkan kabar/ berita atau (4) memberi nasihat. Adapun pada surat pribadi setengah resmi, tujuan tersebut berkenaan dengan urusan seperti izin idak masuk sekolah, izin pekerjaan dan izin cuti."/>
+                    </TableRow>
+                </TableLayout>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bacalah teks surat pribadi berikut ini kemudian jawablah pertanyaan yang ada di bawahnya!"
+                            android:textStyle="bold"/>
+                    </TableRow>
                 </TableLayout>
 
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:background="@color/white">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_span="2"
+                            android:text="Bacalah teks surat pribadi berikut ini kemudian jawablah pertanyaan yang ada di bawahnya!"
+                            android:textStyle="bold"/>
+                    </TableRow>
+                    <TableRow>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:src="@drawable/latihan05"
+                            android:scaleType="fitCenter"
+                            android:layout_span="2"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_span="2"
+                            android:textAlignment="center"
+                            android:text="Sumber: http://belajarserbaneka.blogspot.com/2012/12/petunjuk-menulis-surat- pribadi.html"
+                            />
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginTop="10dp">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="1."/>
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Surat tersebut termasuk jenis surat apa? Jelaskan alasan Ananda dari segi isi dan sifatnya!"/>
+                    </TableRow>
+                    <TableRow>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:src="@drawable/latihan06"
+                            android:scaleType="fitCenter"
+                            android:layout_span="2"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginTop="10dp">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="2."/>
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Jawablah pertanyaan berikut dan jelaskan alasan atau bukti dalam surat di atas!"/>
+                    </TableRow>
+                    <TableRow>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:src="@drawable/latihan07"
+                            android:scaleType="fitCenter"
+                            android:layout_span="2"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginTop="10dp">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="3."/>
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Apa saja tujuan penulis yang tertuang dalam surat di atas?"/>
+                    </TableRow>
+                    <TableRow>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:src="@drawable/latihan08"
+                            android:scaleType="fitCenter"
+                            android:layout_span="2"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginTop="10dp">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="4."/>
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Bagaimana sikap penulis terhadap temannya yang di desa?"/>
+                    </TableRow>
+                    <TableRow>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:src="@drawable/latihan08"
+                            android:scaleType="fitCenter"
+                            android:layout_span="2"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginTop="10dp">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="5."/>
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Bagaimana pendapat Ananda terhadap teman-teman kota yang ada di Purwokerto?"/>
+                    </TableRow>
+                    <TableRow>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:src="@drawable/latihan08"
+                            android:scaleType="fitCenter"
+                            android:layout_span="2"/>
+                    </TableRow>
+                    <TableRow>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"/>
+                    </TableRow>
+
+                </TableLayout>
             </LinearLayout>
 
         </LinearLayout>
