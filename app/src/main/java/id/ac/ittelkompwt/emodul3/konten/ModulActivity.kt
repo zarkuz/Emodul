@@ -47,5 +47,8 @@ class ModulActivity : AppCompatActivity() {
         btn_modul_04.setOnClickListener {
             startActivity(Intent(this, ModulLatihanActivity::class.java))
         }
+        btn_modul_05.setOnClickListener {
+            startActivity(Intent(this, DaftarPustakaActivity::class.java))
+        }
     }
 }

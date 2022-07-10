@@ -156,11 +156,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="4dp"
-                android:text="
-1.	“Pengaruh Penggunaan Media Wall Chart Dalam Meningkatkan Kemampuan Menulis Cerita Pendek Siswa Smp N 2 Majenang Kelas VII A” Artikel, Vol.5, No. 1 (2018) : METAFORA (Jurnal Bahasa dan Sastra UMP).
-/n 2.	“Keefektifan Metode Jigsaw Terintegrasi Cooperative Review dalam Meningkatkan Hasil Belajar Apresiasi Teks Drama Siswa Kelas VIII SMP N 2 Purwokerto” Skripsi, Universitas Muhammadiyah Purwokerto (2019).
-/n 3.	“Sociolinguistic Studies: Phenomenon of Diglosia in Postgraduate Students of Indonesian Language and Literature Education Class of 2020 University of Muhammadiyah Purwokerto” Proceedings of The 1st Internasional Seminar on Teacher Training and Education, Purwokerto: 17- 18 July 2021. Hal. 1-5.
-" />
+                android:text="@string/profil3" />
 
         </LinearLayout>
 

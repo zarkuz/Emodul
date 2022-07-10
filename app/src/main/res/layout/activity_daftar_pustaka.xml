@@ -34,6 +34,19 @@
         android:layout_height="wrap_content"
         app:cardCornerRadius="4dp"
         android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daftar Pustaka"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"/>
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -41,113 +54,85 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1."/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_margin="3dp"
                 android:text="Direktorat Jendral Pendidikan Dasar. 2015. Indikator Sekolah Berdasarkan Standar Nasional Pendidikan (Sekolah Menengah Pertama). Jakarta: Kementerian Pendidikan Nasional dan Kebudayaan."/>
         </TableRow>
         <TableRow>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2."/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_margin="3dp"
                 android:text="Garuda. Majalah Garuda Indonesia. Edisi Desember 2012."/>
         </TableRow>
         <TableRow>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="3."/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_margin="3dp"
                 android:text="Garuda. Majalah Garuda Indonesia. Edisi Desember 2015."/>
         </TableRow>
         <TableRow>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="4."/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_margin="3dp"
                 android:text="Harstiati, Titik. Asesmen Pembelajaran Literasi Membaca dan Menulis. UM Press:2013."/>
         </TableRow>
         <TableRow>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5."/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_margin="3dp"
                 android:text="Harstiati, Titik, dkk. Modul Pembelajaran Berbasis Penelitian BOPTN."/>
         </TableRow>
         <TableRow>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="6."/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Hough, Lyndal. 2003. Language, Context, and Meaning. Melbourne: Heinemann."/>
+                android:layout_margin="3dp"
+                android:text="@string/daftarpustakakhusus"/>
         </TableRow>
+
         <TableRow>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="7."/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_margin="3dp"
                 android:text="Kementerian Pendidikan dan Kebudayaan.2016. Bahasa Indonesia SMP/MTs Kelas VII. Jakarta: Kementerian Pendidikan dan Kebudayaan."/>
         </TableRow>
         <TableRow>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="8."/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_margin="3dp"
                 android:text="Keraf, Gorys. 2004. Diksi dan Gaya Bahasa. Jakarta: PT Gramedia Pustaka Utama."/>
         </TableRow>
         <TableRow>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="9."/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_margin="3dp"
                 android:text="Pusat Bahasa Depdiknas. 2002. Pedoman Umum Ejaan Bahasa Indonesia yang Disempurnakan. Jakarta: Balai Pustaka."/>
         </TableRow>
         <TableRow>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="10."/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_margin="3dp"
                 android:text="Soedjito,dan Saryono,2012. Tata Kalimat Bahasa Indonesia, Malang: Aditya Media Publishing, Tim Penyusun Kamus Pusat Bahasa. 2002. Kamus Besar Bahasa Indonesia. Jakarta: Balai Pustaka."/>
         </TableRow>
     </TableLayout>
+        </LinearLayout>
     </androidx.cardview.widget.CardView>
 
 </ScrollView>

@@ -42,6 +42,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Soal 6"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:justificationMode="inter_word"
                 android:text="Perhatikan penggalan surat pribadi berikut!"
                 android:textStyle="bold"/>
@@ -49,9 +56,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:justificationMode="inter_word"
-                android:text="Pak Jokowi, apa kabar? Semoga Bapak sehat selalu
+                android:text="Pak Irfan, apa kabar? Semoga Bapak sehat selalu
                 \n
-                \nPenggalan surat di atas termasuk bagian surat pribadi, yaitu"/>
+                \nPenggalan surat di atas termasuk bagian surat pribadi, yaitu ..."/>
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -59,25 +66,25 @@
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="kalimat penutup surat"
+                    android:text="A. kalimat penutup surat"
                     android:id="@+id/btn_quiz_a"
                     android:textColor="#808080"/>
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="salam penutup"
+                    android:text="B. salam penutup"
                     android:id="@+id/btn_quiz_b"
                     android:textColor="#808080"/>
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="kalimat isi surat"
+                    android:text="C. kalimat isi surat"
                     android:id="@+id/btn_quiz_c"
                     android:textColor="#808080"/>
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="kalimat pembuka surat"
+                    android:text="D. kalimat pembuka surat"
                     android:id="@+id/btn_quiz_d"
                     android:textColor="#808080"/>
             </RadioGroup>
@@ -87,15 +94,24 @@
                 android:layout_height="wrap_content"
                 android:gravity="center">
 
-                <Button
+                <ImageButton
+                    android:id="@+id/btn_quiz_back"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btn_image_v1"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_new_24"/>
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"
-                    android:text="Submit"
-                    android:background="@drawable/btn_norma_v1"
-                    android:textColor="@color/mainku"
-                    android:id="@+id/btn_quiz_submit"
-                    />
+                    android:text=" --------- "
+                    android:textSize="20dp"
+                    android:textColor="@color/mainku"/>
+                <ImageButton
+                    android:id="@+id/btn_quiz_forward"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btn_image_v1"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
             </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>

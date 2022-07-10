@@ -73,8 +73,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Pengantar Modul"
-                        android:textSize="15sp"
-                        android:paddingLeft="15dp"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:paddingLeft="5dp"
                         android:layout_weight="80"/>
                     <ImageView
                         android:layout_width="wrap_content"
@@ -98,8 +99,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Kompetensi Inti dan Dasar"
-                        android:textSize="15sp"
-                        android:paddingLeft="15dp"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:paddingLeft="5dp"
                         android:layout_weight="80"/>
                     <ImageView
                         android:layout_width="wrap_content"
@@ -134,7 +136,8 @@
                         android:layout_height="wrap_content"
                         android:text="Mengenal Surat Pribadi"
                         android:textStyle="bold"
-                        android:textSize="20sp"/>
+                        android:textSize="20sp"
+                        android:paddingLeft="5dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -152,7 +155,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Pengertian Surat Pribadi"
-                        android:textSize="15sp"
+                        android:textSize="17sp"
                         android:paddingLeft="15dp"
                         android:layout_weight="80"/>
                     <ImageView
@@ -177,7 +180,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Fungsi dan Ciri Surat Pribadi"
-                        android:textSize="15sp"
+                        android:textSize="17sp"
                         android:paddingLeft="15dp"
                         android:layout_weight="80"/>
                     <ImageView
@@ -202,7 +205,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Jenis-Jenis Surat Pribadi"
-                        android:textSize="15sp"
+                        android:textSize="17sp"
                         android:paddingLeft="15dp"
                         android:layout_weight="80"/>
                     <ImageView
@@ -238,7 +241,8 @@
                         android:layout_height="wrap_content"
                         android:text="Menulis Surat Pribadi"
                         android:textStyle="bold"
-                        android:textSize="20sp"/>
+                        android:textSize="20sp"
+                        android:paddingLeft="5dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -256,7 +260,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Unsur-Unsur Surat Pribadi"
-                        android:textSize="15sp"
+                        android:textSize="17sp"
                         android:paddingLeft="15dp"
                         android:layout_weight="80"/>
                     <ImageView
@@ -281,7 +285,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Kebahasaan Surat Pribadi"
-                        android:textSize="15sp"
+                        android:textSize="17sp"
                         android:paddingLeft="15dp"
                         android:layout_weight="80"/>
                     <ImageView
@@ -306,7 +310,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Langkah-Langkah Menulis Surat Pribadi"
-                        android:textSize="15sp"
+                        android:textSize="17sp"
                         android:paddingLeft="15dp"
                         android:layout_weight="80"/>
                     <ImageView
@@ -342,8 +346,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Rangkuman"
-                        android:textSize="15sp"
-                        android:paddingLeft="15dp"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:paddingLeft="5dp"
                         android:layout_weight="80"/>
                     <ImageView
                         android:layout_width="wrap_content"
@@ -366,8 +371,34 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Latihan Soal"
-                        android:textSize="15sp"
-                        android:paddingLeft="15dp"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:paddingLeft="5dp"
+                        android:layout_weight="80"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                        android:layout_gravity="right"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                android:layout_margin="2dp"
+                android:id="@+id/btn_modul_05">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Daftar Pustaka"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:paddingLeft="5dp"
                         android:layout_weight="80"/>
                     <ImageView
                         android:layout_width="wrap_content"

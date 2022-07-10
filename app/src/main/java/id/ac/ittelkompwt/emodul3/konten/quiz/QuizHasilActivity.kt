@@ -14,8 +14,10 @@ class QuizHasilActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz_hasil)
 
-        var skor:Int = intent.getStringExtra("skor").toString().toInt()
-        tv_hasilquiz_final.setText(skor.toString())
+        val bundles = intent.extras
+        var skor:Double = bundles?.getString("ts").toString().toDouble()
+        var nilai:Double = Math.round((skor/15.0)*1000.0)/10.0
+        tv_hasilquiz_final.setText(nilai.toString())
         btn_quiz_home.setOnClickListener {
             startActivity(Intent(this, QuizHasilActivity::class.java))
         }

@@ -42,6 +42,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Soal 15"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:justificationMode="inter_word"
                 android:text="Bacalah surat berikut!"
                 android:textStyle="bold"/>
@@ -65,7 +72,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Surat di atas termasuk dalam jenis surat pribadi"/>
+                android:text="Surat di atas termasuk dalam jenis surat pribadi ..."/>
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -73,25 +80,25 @@
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Surat Pribadi Kekeluargaan"
+                    android:text="A. Surat Pribadi Kekeluargaan"
                     android:id="@+id/btn_quiz_a"
                     android:textColor="#808080"/>
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Surat Pribadi Kekerabatan"
+                    android:text="B. Surat Pribadi Kekerabatan"
                     android:id="@+id/btn_quiz_b"
                     android:textColor="#808080"/>
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Surat Pribadi Persaudaraan"
+                    android:text="C. Surat Pribadi Persaudaraan"
                     android:id="@+id/btn_quiz_c"
                     android:textColor="#808080"/>
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Surat Pribadi Persahabatan"
+                    android:text="D. Surat Pribadi Persahabatan"
                     android:id="@+id/btn_quiz_d"
                     android:textColor="#808080"/>
             </RadioGroup>
@@ -100,16 +107,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center">
-
+                <ImageButton
+                    android:id="@+id/btn_quiz_back"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btn_image_v1"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_new_24"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" --------- "
+                    android:textSize="20dp"
+                    android:textColor="@color/mainku"/>
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"
                     android:text="Submit"
+                    android:id="@+id/btn_quiz_submitf"
                     android:background="@drawable/btn_norma_v1"
-                    android:textColor="@color/mainku"
-                    android:id="@+id/btn_quiz_submit"
-                    />
+                    android:textColor="@color/mainku"/>
+
             </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>

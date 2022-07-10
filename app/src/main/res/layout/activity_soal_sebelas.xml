@@ -42,6 +42,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Soal 11"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:justificationMode="inter_word"
                 android:text="Perhatikan kutipan isi surat berikut berikut!"
                 android:textStyle="bold"/>
@@ -51,7 +58,7 @@
                 android:justificationMode="inter_word"
                 android:text="Hai Kak, apa kabarmu? Semoga selalu baik-baik saja ya. Keadaanku di Purwokerto juga baik-baik saja. Begini Kak Amel, aku ingin menyampaikan perihal rencana kedatanganku ke Jogja yang harus tertunda lagi. Kegiatan di sekolah sedang sangat padat. Aku juga terpilih untuk mengikuti perlombaan menulis cerpen. Jadi meskipun liburan aku tetap masuk untuk beberapa hari mempersiapkan perlombaan itu. […]
                 \n
-                \nKalimat penutup surat tersebut yang tepat adalah"/>
+                \nKalimat penutup surat tersebut yang tepat adalah ..."/>
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -59,25 +66,25 @@
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sekian dulu surat ini, semoga Kak Amel bahagia, terima kasih."
+                    android:text="A. Sekian dulu surat ini, semoga Kak Amel bahagia, terima kasih."
                     android:id="@+id/btn_quiz_a"
                     android:textColor="#808080"/>
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Demikian yang dapat saya sampaikan dan terima kasih atas perhatiannya."
+                    android:text="B. Demikian yang dapat saya sampaikan dan terima kasih atas perhatiannya."
                     android:id="@+id/btn_quiz_b"
                     android:textColor="#808080"/>
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Harap maklum dan dapat memaafkan kesalahanku ya."
+                    android:text="C. Sekian dulu suratku ini, semoga Kak Amel tidak kecewa ya. Maafkan adikmu."
                     android:id="@+id/btn_quiz_c"
                     android:textColor="#808080"/>
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sekian dulu suratku ini, semoga Kak Amel tidak kecewa ya. Maafkan adikmu."
+                    android:text="D. Harap maklum dan dapat memaafkan kesalahanku ya."
                     android:id="@+id/btn_quiz_d"
                     android:textColor="#808080"/>
             </RadioGroup>
@@ -86,16 +93,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center">
-
-                <Button
+                <ImageButton
+                    android:id="@+id/btn_quiz_back"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btn_image_v1"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_new_24"/>
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"
-                    android:text="Submit"
-                    android:background="@drawable/btn_norma_v1"
-                    android:textColor="@color/mainku"
-                    android:id="@+id/btn_quiz_submit"
-                    />
+                    android:text=" --------- "
+                    android:textSize="20dp"
+                    android:textColor="@color/mainku"/>
+                <ImageButton
+                    android:id="@+id/btn_quiz_forward"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btn_image_v1"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
             </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
